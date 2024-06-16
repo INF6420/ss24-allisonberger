@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - Allison Berger's MLIS Program Portfolio</title>
+    <script src="https://kit.fontawesome.com/78099b1a64.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
-            <img src="images/allisonbergerlogo.png" alt="Allison Berger's Logo">
+            <img class="logo" src="images/allisonbergerlogo.png" alt="Allison Berger's Logo">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -20,20 +26,21 @@
         </nav>
     </header>
     <main>
-        <div>
-            <table>
-                <tr>
-                    <td><img src="images/allisonberger.jpg" alt="Photo of Allison Berger"></td>
-                    <td><h1>Contact Me</h1><br />
-                    <address><p>Phone number: 248-912-2084</p>
-                    <p>Email: <a href="mailto:bergerallison19@gmail.com">bergerallison19@gmail.com</a></p></address><br />
-                    <a href="https://www.linkedin.com/in/allison-berger/"><img src="images/linkedinlogo.png" alt="LinkedIn logo"></a>
-                    <a href="https://x.com/berger_a19"><img src="images/Xlogo.png" alt="X logo"></a>
-                    </td>
-                </tr>
-            </table>  
+        <div class="contact-section1">
+            <div class="contact-column1">
+                <img src="images/allisonberger.jpg" class="feature" alt="Photo of Allison Berger">
+            </div>
+            <div class="contact-column2">
+                <h1>Contact Me</h1><br />
+                    <address><p><b>Phone number:</b> 248-912-2084</p><br />
+                    <p><b>Email:</b> <a href="mailto:bergerallison19@gmail.com">bergerallison19@gmail.com</a></p></address><br />
+                    <div class="iconbox">
+                        <div class="iconboxcol1"><a href="https://www.linkedin.com/in/allison-berger/"><img src="images/linkedinlogo.png" class="socialmediaicon" alt="LinkedIn logo"></a></div>
+                        <div class="iconboxcol2"><a href="https://x.com/berger_a19"><img src="images/Xlogo.png" class="socialmediaicon" alt="X logo"></a></div>
+                    </div>
+            </div>  
         </div>
-        <div>
+        <div class="closingmessage">
             <p>Thank you for reaching out to me! I should get back to you within 2 days via the platform that you used to contact me. Talk to you soon!</p>
         </div>
     </main>

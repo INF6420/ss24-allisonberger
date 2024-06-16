@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Presentations - Allison Berger's MLIS Program Portfolio</title>
+    <script src="https://kit.fontawesome.com/78099b1a64.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
-            <img src="images/allisonbergerlogo.png" alt="Allison Berger's Logo">
+            <img class="logo" src="images/allisonbergerlogo.png" alt="Allison Berger's Logo">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -20,35 +26,25 @@
         </nav>
     </header>
     <main>
-        <div>
-            <h1>Presentations</h1>
+        <div class="openingsection">
+            <h1 class="sectioncentered">Presentations</h1>
             <p>This page contains presentations that I have created during my time in the MLIS program. Each presentation below has information about the presentation including the class it was completed for, the presentation's title, and a brief description.</p>
         </div>
         <hr />
-        <div>
-            <table>
-                <tr>
-                    <td><iframe width="560" height="315" src="https://www.youtube.com/embed/RV0R1NdZOeE?si=MaJaF7fIS5J3g47z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
-                    <td>
-                        <h5><i>INF 6520</i><br />Book Talk - "Alone" by Megan E. Freeman</h5>
-                        <p>This presentation is a book talk about the novel-in-verse <i>Alone</i> by Megan E. Freeman. <a href="https://youtu.be/RV0R1NdZOeE">Watch Here</a></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td><iframe width="560" height="315" src="https://www.youtube.com/embed/jCrZNHfV_Js?si=IiTLOtHsEXLB-3UZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
-                    <td>
-                        <h5><i>INF 6520</i><br />Multicultural Book Award Assignment</h5>
-                        <p>This presentation provides viewers with information about the Tomás Rivera Mexican American Children's Book Award. It also includes three book talks on books that have won the award in the past. <a href="https://youtu.be/jCrZNHfV_Js">Watch Here</a></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td><iframe width="560" height="315" src="https://www.youtube.com/embed/NzZrG0gPT1Y?si=4pyI1la4nqfnuIcF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
-                    <td>
-                        <h5><i>INF 7250</i><br />Book Talk Presentation</h5>
-                        <p>This presentation features three book talks on books with the theme of survival. The books are <i>Northwind</i> by Gary Paulsen, <i>My Side of the Mountain</i> by Jean Craighead George, and <i>Alone in the Woods</i> by Rebecca Behrens. <a href="https://youtu.be/NzZrG0gPT1Y">Watch Here</a></p>
-                    </td>
-                </tr>
-            </table>
+        <div class="pres-column">
+            <div class="presentationscolumn1"><iframe width="373.33" height="210" src="https://www.youtube.com/embed/RV0R1NdZOeE?si=MaJaF7fIS5J3g47z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            <div class="presentationscolumn2"><h4><i>INF 6520</i><br />Book Talk - "Alone" by Megan E. Freeman</h4>
+            <p>This presentation is a book talk about the novel-in-verse <i>Alone</i> by Megan E. Freeman. This book talk presentation was one part of a Book Bingo assignment. <a href="https://youtu.be/RV0R1NdZOeE">Watch Here</a></p></div>
+        </div>
+        <div class="pres-column">    
+            <div class="presentationscolumn1"><iframe width="373.33" height="210" src="https://www.youtube.com/embed/jCrZNHfV_Js?si=IiTLOtHsEXLB-3UZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            <div class="presentationscolumn2"><h4><i>INF 6520</i><br />Multicultural Book Award Assignment</h4>
+            <p>This presentation provides viewers with information about the Tomás Rivera Mexican American Children's Book Award. It also includes three book talks on books that have won the award in the past. <a href="https://youtu.be/jCrZNHfV_Js">Watch Here</a></p></div>
+        </div>
+        <div class="pres-column">     
+            <div class="presentationscolumn1"><iframe width="373.33" height="210" src="https://www.youtube.com/embed/NzZrG0gPT1Y?si=4pyI1la4nqfnuIcF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            <div class="presentationscolumn2"><h4><i>INF 7250</i><br />Book Talk Presentation</h4>
+            <p>This presentation features three book talks on books with the theme of survival. The books are <i>Northwind</i> by Gary Paulsen, <i>My Side of the Mountain</i> by Jean Craighead George, and <i>Alone in the Woods</i> by Rebecca Behrens. <a href="https://youtu.be/NzZrG0gPT1Y">Watch Here</a></p></div>
         </div>
     </main>
     <footer>
