@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Other Works - Allison Berger's MLIS Program Portfolio</title>
+    <script src="https://kit.fontawesome.com/78099b1a64.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
-            <img src="images/allisonbergerlogo.png" alt="Allison Berger's Logo">
+            <img class="logo" src="images/allisonbergerlogo.png" alt="Allison Berger's Logo">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -20,49 +26,55 @@
         </nav>
     </header>
     <main>
-        <div>
-            <h1>Other Works</h1>
+        <div class="openingsection">
+            <h1 class="sectioncentered">Other Works</h1>
             <p>This page contains assignments that take a different format from an essay or a presentation that I have written during my time in the MLIS program. Each assignment below has information about itself including the date it was written, the class it was completed for, the assignment's title, and a brief description.</p>
         </div>
         <hr />
-        <div>
-            <table>
-                <tr>
-                    <td><h4>March 2023</h4></td>
-                    <td>
-                        <h4><i>INF 6120</i><br /><a href="documents/rrq3assignment.pdf">Ready Reference Questions Assignment</a></h4>
-                        <p>This assignment involved answering possible reference questions by using two different sources in order to answer the question.</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td><h4>April 2023</h4></td>
-                    <td>
-                        <h4><i>INF 6120</i><br /><a href="documents/indexassignment.pdf">Index-Database Assignment</a></h4>
-                        <p>This assignment involved analyzing ten different databases and explaining whether or not to recommend them to others.</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td><h4>May 2023</h4></td>
-                    <td>
-                        <h4><i>INF 7040</i><br /><a href="documents/memoassignment.pdf">Podcast Memo Assignment</a></h4>
-                        <p>The purpose of this assignment was to share my reactions and takeaways after listening to the podcast, <i>Cataloging the Community with James LaRue.</i> It was written in memo format in order to practice writing a memo.</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td><h4>July 2023</h4></td>
-                    <td>
-                        <h4><i>INF 7040</i><br /><a href="documents/communityanalysisreportassignment.pdf">Community Analysis Report Assignment</a></h4>
-                        <p>This assignment involved analyzing a community of my choosing; I selected Bloomingdale, IL. The report was written in memo format.</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td><h4>March 2024</h4></td>
-                    <td>
-                        <h4><i>INF 7340</i><br /><a href="documents/collectiondevelopmentpolicyassignment.pdf">Collection Development Policy Assignment</a></h4>
-                        <p>This assignment required me to create a collection development policy for a fictional library.</p>
-                    </td>
-                </tr>
-            </table>   
+        <div class="others-column">
+            <div class="otherscolumn1">
+                <div class="purplebox"><h4 class="boxspace">Mar 2023</h4></div>
+            </div>
+            <div class="otherscolumn2">
+                <div><h4><i>INF 6120</i><br /><a class="purplelink" href="documents/rrq3assignment.pdf">Ready Reference Questions Assignment</a></h4>
+                        <p>This assignment involved answering possible reference questions by using two different sources in order to answer the question.</p></div>
+            </div>
+        </div>
+        <div class="others-column">
+            <div class="otherscolumn1">
+                <div class="purplebox"><h4 class="boxspace">Apr 2023</h4></div>
+            </div>
+            <div class="otherscolumn2">
+                <div><h4><i>INF 6120</i><br /><a class="purplelink" href="documents/indexassignment.pdf">Index-Database Assignment</a></h4>
+                        <p>This assignment involved analyzing ten different databases and explaining whether or not to recommend them to others.</p></div>
+            </div>
+        </div>
+        <div class="others-column">
+            <div class="otherscolumn1">
+                <div class="purplebox"><h4 class="boxspace">May 2023</h4></div>
+            </div>
+            <div class="otherscolumn2">
+                <div><h4><i>INF 7040</i><br /><a class="purplelink" href="documents/memoassignment.pdf">Podcast Memo Assignment</a></h4>
+                        <p>The purpose of this assignment was to share my reactions and takeaways after listening to the podcast, <i>Cataloging the Community with James LaRue.</i> It was written in memo format in order to practice writing a memo.</p></div>
+            </div>
+        </div>
+        <div class="others-column">
+            <div class="otherscolumn1">            
+                <div class="purplebox"><h4 class="boxspace">Jul 2023</h4></div>
+            </div>
+            <div class="otherscolumn2">
+                <div><h4><i>INF 7040</i><br /><a class="purplelink" href="documents/communityanalysisreportassignment.pdf">Community Analysis Report Assignment</a></h4>
+                        <p>This assignment involved analyzing a community of my choosing; I selected Bloomingdale, IL. The report was written in memo format.</p></div>
+            </div>
+        </div>
+        <div class="others-column">
+            <div class="otherscolumn1">
+                <div class="purplebox"><h4 class="boxspace">Mar 2024</h4></div>
+            </div>
+            <div class="otherscolumn2">
+                <div><h4><i>INF 7340</i><br /><a class="purplelink" href="documents/collectiondevelopmentpolicyassignment.pdf">Collection Development Policy Assignment</a></h4>
+                        <p>This assignment required me to create a collection development policy for a fictional library. It is not in traditional essay format; it is written in the format of a collection development policy.</p></div>  
+            </div>
         </div>
     </main>
     <footer>
