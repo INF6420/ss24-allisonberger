@@ -37,7 +37,27 @@
                     <div class="iconbox">
                         <div class="iconboxcol1"><a href="https://www.linkedin.com/in/allison-berger/"><img src="images/linkedinlogo.png" class="socialmediaicon" alt="LinkedIn logo"></a></div>
                         <div class="iconboxcol2"><a href="https://x.com/berger_a19"><img src="images/Xlogo.png" class="socialmediaicon" alt="X logo"></a></div>
-                    </div>
+                    </div><br />
+                    <form action="https://formspree.io/f/manwnejp" method="post" class="validate">
+                        <div>
+                            <label for="name">Your Name</label>
+                            <input name="name" id="name" type="text" class="form-input">
+                        </div>
+
+                        <div>
+                            <label for="email">Your Email</label>
+                            <input name="_replyto" id="email" type="email" class="form-input" required>
+                        </div>
+
+                        <div>
+                            <label for="message">Your Message</label>
+                            <textarea name="message" id="message" class="form-input" rows="5" required></textarea>
+                        </div>
+
+                        <div>
+                            <input type="submit" value="Send">
+                        </div>    
+                    </form>
             </div>  
         </div>
         <div class="closingmessage">
@@ -47,5 +67,6 @@
     <footer>
         <div><p>Copyright 2024 | <a href="index.html">Home</a> | <a href="contact.html">Contact</a></p></div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
