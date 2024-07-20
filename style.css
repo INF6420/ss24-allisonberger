@@ -128,12 +128,18 @@ main {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
+    color: #A64DBF;
 }
 
 h1 {
     color: #A64DBF;
     font-size: 36px;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #A64DBF;
 }
 
 h2 {
@@ -407,6 +413,11 @@ img.otherworks {
     @media (min-width: 768px) {
         max-width: 60%;
     }
+}
+
+.videoplaceholder {
+    min-height: 210;
+    min-width: 373.33;
 }
 
 .others-column {
